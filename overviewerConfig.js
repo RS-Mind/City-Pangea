@@ -23,11 +23,11 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "pregame - overworld"
+        "Pre-Game - overworld"
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1613094364",
+        "cacheTag": "1614030453",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -41,14 +41,14 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "Pregame",
+            "name": "North",
             "zoomLevels": 7,
             "defaultZoom": 1,
             "maxZoom": 7,
-            "path": "pregame",
+            "path": "Pre North",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "pregame - overworld",
+            "world": "Pre-Game - overworld",
             "last_rendertime": 1613094040,
             "imgextension": "png",
             "isOverlay": false,
@@ -62,6 +62,29 @@ var overviewerConfig = {
             "minZoom": 0,
             "spawn": false,
             "north_direction": 0
+        },
+        {
+            "name": "South",
+            "zoomLevels": 7,
+            "defaultZoom": 1,
+            "maxZoom": 7,
+            "path": "Pre South",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "Pre-Game - overworld",
+            "last_rendertime": 1613094040,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                -1,
+                96,
+                0
+            ],
+            "minZoom": 0,
+            "spawn": false,
+            "north_direction": 2
         }
     ]
 };
